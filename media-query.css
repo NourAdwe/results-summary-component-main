@@ -1,0 +1,39 @@
+@media (max-width: 750px) {
+    body{
+        max-width: 375px;
+        margin: auto;
+    }
+    .m-container{
+        flex-direction: column
+    }
+    .sum{
+        width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .sum>p{
+        width: 100%;
+        padding: 20px;
+        margin-left: 15px;
+    }
+    .sum div{
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        width: 45%;
+        align-items: center;
+    }
+    .sum button{
+        width: 100%;
+    }
+    .result-sect{
+        width: 100%;
+        margin: auto 5px auto 5px;
+    }
+    .result{
+        width: 50%;
+        align-self: center;
+    }
+
+}
