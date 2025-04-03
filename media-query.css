@@ -4,7 +4,18 @@
         margin: auto;
     }
     .m-container{
-        flex-direction: column
+        margin-inline: 5px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .result-sect{
+        width:100% ;
+        margin:10px;
+    }
+    .result{
+        width: 50%;
+        align-self: center;
     }
     .sum{
         width: 100%;
@@ -27,13 +38,4 @@
     .sum button{
         width: 100%;
     }
-    .result-sect{
-        width: 100%;
-        margin: auto 5px auto 5px;
-    }
-    .result{
-        width: 50%;
-        align-self: center;
-    }
-
 }
